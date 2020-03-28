@@ -18,8 +18,8 @@ const calculateIngredient = async function () {
   await firestore.collection('Fridge').get().then((docs) => {
     docs.docs.forEach((d) => {
       if(d.data().date != null && d.data().uid != null){
-        differentDays = Math.ceil(Math.abs(d.data().date.toDate().getTime() -  new Date().getTime())/ (1000 * 3600 * 24));
-        differentDays = differentDays - 1
+        differentDays = Math.ceil((d.data().date.toDate().getTime() -  new Date().getTime())/ (1000 * 3600 * 24));
+        differentDays = differentDays
         if(differentDays < 3 && differentDays > 0){
           toMessage = [
             ...toMessage,
