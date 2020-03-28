@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "foodfridge-18df3",
+  "private_key_id": "2b1dc8221993a642d9e075a11878b79226249b78",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCPBbC6bg4Qwa0H\nTLA22B2r7uMrM7TFDDb9iNPqPsEeuZqT0X0g+oJZyJXUDCFr5SKXhnizsKrl68Qo\n+9tAgNqzvCVmbJz2jUB/qYxGYVq72I4fopqN7lddKyw6TvbW2Ier0E1a11At0j7/\nr9WMuPSaM/HjjqTCJRdBxUnsPdHXbD84gfzZ2vrcWInxceuzXoLL3Hy59l4qNKUG\nql8AYLYaHnxObIX6U30VXC/Q8lWzV4obhqIqlxUGinfd3u9vvgGvdhCPLRkv3Dcw\n3ecDIjHJedc1VRhMTQ7nRTgQX7N7qq1q54nv+1rYc5AQx2cul5xQWSNZAd+xkpDT\nQqdDo4ZnAgMBAAECggEALhSjxdVqw7xbHvR2/ByyprBP0h4VOr2+Q/7fZGQ2vcsI\nQmMnQUZlVD88AverlwNbG14Qqribv3uwlpHbKRO7I1jV5gPNqOSG6Pr8PrrkTIyv\n8gJmcJ9f151u4RSLFFrsj4+MNN4Vr8XDVYdWM0JuUPa2k15kuEbSEPdbY3nhj9oN\npFEnY9BWZBsp2R6gdwXpGJZ8WojJcsttDyXlAnYJnzuhKm+5TUefTFV/iSZ30FAa\naDUFUdl1Ae26M+RwuWLMb0epQmFqowQO+1+1UTUPqakRsTLGg+0rBs8gReaSkGsK\nNYxdbTQz6KIjEDMrmctFClCPvF+7caVkoqRzfz5nwQKBgQDJzdknweJLBkjweFMv\nB98h3zdqrPNxWEsEpbmQQtlM4WotlS90PhvZfmf0X0b6jxoEQZhAnuQxunGv8o8d\nbJTsdRwFOye9G+hP0kL0dWNhKbGH5doWweVFyV0hCsLHQ4OdHy4qYaMQGUI3j2h0\n8yn5JcmfocY0aUwTyKRXx/XowQKBgQC1bo3AWzUOCF4y2Qs5BAuTpPGVoVBldn6h\nM8MLXfyfdDqnC21WV/81NxTe/HTam5T4GJsjhBBBRSpKy0qG46y5qwd02/mcjArq\nLt8fkgOxGX8aIE6keEpNFakbFtGKWaGVztqr7EjYS00EEjeTnMchlH20PGhExvDP\n7nKdWIhRJwKBgGOk6Nzgt0QkTk+umiRW1q568XoS/AGzfxdEXWQGHhYAF9V6HHxh\nTo8OA3Z+tSVzE32Whf8idbq4PPqL4m689qvrB3Ltyqlt5j/Dqpvaer+3PpnDvPQP\nuY3D5+Aw2AxcIdirVLhIjaOdVTzp6sIUb10+c1gHIT8v3wjFwaA2dA4BAoGATFA6\nE4TJpiNi6+RbUhoffHTOoO9/T44t6URKcAeScMeEvCqUTNMqp4mJn9l0lVcHq+s9\npgywgaPEDD3CFUbCqj4EHuU/8tb86E/azf6uytk8mxKnwYpPRmkr/hb1AEp/KvId\nDF+QrFnQBTxcYBx7reY1kZAvE27Sb8OONhy9CdUCgYB3giXhrKxQ089YuKM6M1lD\nPtpp9Iom3idJ1ZcN61YZJGKaWYawSph07rKINC9sgA6LvmD2Ly7FuDVm2o2KV2yY\ng6pN1c9YD9DFJ6siI+ikNC+FALgGysWsmtYmFhiJ5sTiPFxxwRgYpDB+BHZazsUy\n8poXkHxcp+V4WZARXsriSw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bzdge@foodfridge-18df3.iam.gserviceaccount.com",
+  "client_id": "106757092568738697776",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bzdge%40foodfridge-18df3.iam.gserviceaccount.com"
+}
