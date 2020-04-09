@@ -29,6 +29,16 @@ const calculateIngredient = async function () {
             }
           ]
         }
+	if (differentDays == 0) {
+          toMessage = [
+            ...toMessage,
+            {
+              uid: d.data().uid,
+              name: d.data().name,
+              expireIn: differentDays
+            }
+          ]
+        }
       }
     })
   })
@@ -89,3 +99,11 @@ app.listen(8082, () => {
 
   var j = schedule.scheduleJob('10 * * * * *', calculateIngredient)
 })
+
+
+
+
+
+
+
+
