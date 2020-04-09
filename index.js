@@ -36,7 +36,7 @@ const calculateIngredient = async function () {
       for (let i = 0; i < toMessage.length; i++) {
         if(toMessage[i].uid === d.data().uid){
           let message_title = `เร็วเข้า !!`
-          let message_body = `${toMessage[i].name} ในตู้เย็นของคุณ จะหมดอายุใน ${toMessage[i].expireIn} วัน !!`
+          let message_body = toMessage[i].expireIn === 0 ? `${toMessage[i].name} หมาอายุแล้ว` : `${toMessage[i].name} ในตู้เย็นของคุณ จะหมดอายุใน ${toMessage[i].expireIn} วัน !!`
 
           toMessage[i] = {
             ...toMessage[i],
