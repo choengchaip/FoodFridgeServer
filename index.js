@@ -63,6 +63,7 @@ const calculateIngredient = async function () {
       }
     }
 
+    console.log(blacklist)
     if(is_black_list){
       continue
     }
@@ -110,12 +111,12 @@ const calculateIngredient = async function () {
           }
         }
       }
-
-      blacklist = [
-        ...blacklist,
-        toMessage[i].uid
-      ]
     }
+
+    blacklist = [
+      ...blacklist,
+      toMessage[i].uid
+    ]
   }
 
   for (let i = 0; i < realMessage.length; i++) {
@@ -148,14 +149,13 @@ const calculateIngredient = async function () {
     await axios.post('https://asia-east2-foodfridge-18df3.cloudfunctions.net/sendNotification', body, {headers: { 'Content-Type': 'application/json'}})
   }
 
-  console.log(realMessage)
   console.log('Done!!!')
 }
 
 app.listen(8082, () => {
   console.log('Server is running')
 
-  var j = schedule.scheduleJob('20 * * * * *', calculateIngredient)
+  var j = schedule.scheduleJob('25 * * * * *', calculateIngredient)
 })
 
 
